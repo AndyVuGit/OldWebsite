@@ -1,0 +1,30 @@
+<html>
+<body>
+
+<script language="javascript" type="text/javascript">
+<!--
+//Browser Support Code
+function ajaxFunction(){
+	var options = {
+
+			  url: "countries.json",
+
+			  getValue: "name",
+
+			  list: {	
+			    match: {
+			      enabled: true
+			    }
+			  },
+
+			  theme: "square"
+			};
+
+			$("#countries").easyAutocomplete(options);
+}
+
+//-->
+</script>
+
+<input id="countries"/>
+</html>
